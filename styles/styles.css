@@ -1,22 +1,33 @@
-
-body{
-   background-color: #661818;
-   color: #c5c1c1;
+body {
+  background-color: #661818;
+  color: #c5c1c1;
+  background: url('../images/bg.png');
 }
 
 h1 {
-   color: #0202a0;
+  color: #0202a0;
+}
+h1:hover {
+  /* border: 2px dotted gray; */
+  background-color: gray;
 }
 
 p {
-   font-size: 25px;
+  font: italic bold 18px sans-serif;
+  text-align: right;
 }
 
-table{
-   border-collapse: collapse;
+table {
+  border-collapse: collapse;
 }
 
-table, th, td {
-   border: 1px solid rgb(109, 107, 107);
-   padding: 5px;
+table,
+th,
+td {
+  border: 1px solid rgb(109, 107, 107);
+  padding: 5px;
+}
+
+.couleur_jaune {
+  color: yellow;
 }
